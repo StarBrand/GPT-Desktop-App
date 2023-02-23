@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D814182529A23BAB0075C1E6 /* OpenAIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D814182429A23BAB0075C1E6 /* OpenAIResponse.swift */; };
+		D82DD9A529A1689B004F647C /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82DD9A429A1689B004F647C /* ConversationView.swift */; };
+		D861C9BF299D900B00D6C296 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861C9BC299D900B00D6C296 /* LoginView.swift */; };
+		D861C9C0299D900B00D6C296 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861C9BD299D900B00D6C296 /* MainContentView.swift */; };
+		D861C9C6299DBE1D00D6C296 /* PersistenceUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861C9C5299DBE1D00D6C296 /* PersistenceUserData.swift */; };
+		D861C9C8299DC02700D6C296 /* OpenAIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861C9C7299DC02700D6C296 /* OpenAIRequests.swift */; };
+		D88BB53C299D8F29006B7303 /* GPT_Desktop_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BB53B299D8F29006B7303 /* GPT_Desktop_AppApp.swift */; };
+		D88BB53E299D8F29006B7303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BB53D299D8F29006B7303 /* ContentView.swift */; };
+		D88BB540299D8F29006B7303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88BB53F299D8F29006B7303 /* Assets.xcassets */; };
+		D88BB543299D8F29006B7303 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88BB542299D8F29006B7303 /* Preview Assets.xcassets */; };
+		D88BB54E299D8F29006B7303 /* GPT_Desktop_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BB54D299D8F29006B7303 /* GPT_Desktop_AppTests.swift */; };
+		D88BB558299D8F2A006B7303 /* GPT_Desktop_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BB557299D8F2A006B7303 /* GPT_Desktop_AppUITests.swift */; };
+		D88BB55A299D8F2A006B7303 /* GPT_Desktop_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BB559299D8F2A006B7303 /* GPT_Desktop_AppUITestsLaunchTests.swift */; };
+		D88D962C29A03FB2000396DC /* ConversationSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D962B29A03FB2000396DC /* ConversationSelector.swift */; };
+		D88D962E29A055E6000396DC /* NewConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D962D29A055E6000396DC /* NewConversation.swift */; };
+		D88D963129A05D46000396DC /* ConversationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D963029A05D46000396DC /* ConversationsManager.swift */; };
+		D88D963329A05FC5000396DC /* ManageConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D963229A05FC5000396DC /* ManageConversation.swift */; };
+		D88D963629A093FE000396DC /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D88D963429A093FE000396DC /* UserData.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D88BB54A299D8F29006B7303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88BB530299D8F29006B7303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88BB537299D8F29006B7303;
+			remoteInfo = "GPT Desktop App";
+		};
+		D88BB554299D8F29006B7303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88BB530299D8F29006B7303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88BB537299D8F29006B7303;
+			remoteInfo = "GPT Desktop App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D814182429A23BAB0075C1E6 /* OpenAIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIResponse.swift; sourceTree = "<group>"; };
+		D82DD9A429A1689B004F647C /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		D861C9BC299D900B00D6C296 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D861C9BD299D900B00D6C296 /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		D861C9C5299DBE1D00D6C296 /* PersistenceUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceUserData.swift; sourceTree = "<group>"; };
+		D861C9C7299DC02700D6C296 /* OpenAIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIRequests.swift; sourceTree = "<group>"; };
+		D88BB538299D8F29006B7303 /* GPT Desktop App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPT Desktop App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88BB53B299D8F29006B7303 /* GPT_Desktop_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Desktop_AppApp.swift; sourceTree = "<group>"; };
+		D88BB53D299D8F29006B7303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D88BB53F299D8F29006B7303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88BB542299D8F29006B7303 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D88BB544299D8F29006B7303 /* GPT_Desktop_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPT_Desktop_App.entitlements; sourceTree = "<group>"; };
+		D88BB549299D8F29006B7303 /* GPT Desktop AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPT Desktop AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88BB54D299D8F29006B7303 /* GPT_Desktop_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Desktop_AppTests.swift; sourceTree = "<group>"; };
+		D88BB553299D8F29006B7303 /* GPT Desktop AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPT Desktop AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88BB557299D8F2A006B7303 /* GPT_Desktop_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Desktop_AppUITests.swift; sourceTree = "<group>"; };
+		D88BB559299D8F2A006B7303 /* GPT_Desktop_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Desktop_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D88D962B29A03FB2000396DC /* ConversationSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationSelector.swift; sourceTree = "<group>"; };
+		D88D962D29A055E6000396DC /* NewConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversation.swift; sourceTree = "<group>"; };
+		D88D963029A05D46000396DC /* ConversationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsManager.swift; sourceTree = "<group>"; };
+		D88D963229A05FC5000396DC /* ManageConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageConversation.swift; sourceTree = "<group>"; };
+		D88D963529A093FE000396DC /* UserData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88BB535299D8F29006B7303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88BB546299D8F29006B7303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88BB550299D8F29006B7303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D814182329A1D9EB0075C1E6 /* OpenAIAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D861C9C7299DC02700D6C296 /* OpenAIRequests.swift */,
+				D814182429A23BAB0075C1E6 /* OpenAIResponse.swift */,
+			);
+			path = OpenAIAPI;
+			sourceTree = "<group>";
+		};
+		D88BB52F299D8F29006B7303 = {
+			isa = PBXGroup;
+			children = (
+				D88BB53A299D8F29006B7303 /* GPT Desktop App */,
+				D88BB54C299D8F29006B7303 /* GPT Desktop AppTests */,
+				D88BB556299D8F29006B7303 /* GPT Desktop AppUITests */,
+				D88BB539299D8F29006B7303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88BB539299D8F29006B7303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88BB538299D8F29006B7303 /* GPT Desktop App.app */,
+				D88BB549299D8F29006B7303 /* GPT Desktop AppTests.xctest */,
+				D88BB553299D8F29006B7303 /* GPT Desktop AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88BB53A299D8F29006B7303 /* GPT Desktop App */ = {
+			isa = PBXGroup;
+			children = (
+				D814182329A1D9EB0075C1E6 /* OpenAIAPI */,
+				D88D962F29A05C2E000396DC /* UserData */,
+				D88D962A29A03F76000396DC /* ConversationViews */,
+				D861C9BC299D900B00D6C296 /* LoginView.swift */,
+				D861C9BD299D900B00D6C296 /* MainContentView.swift */,
+				D88BB53B299D8F29006B7303 /* GPT_Desktop_AppApp.swift */,
+				D88BB53D299D8F29006B7303 /* ContentView.swift */,
+				D88BB53F299D8F29006B7303 /* Assets.xcassets */,
+				D88BB544299D8F29006B7303 /* GPT_Desktop_App.entitlements */,
+				D88BB541299D8F29006B7303 /* Preview Content */,
+				D88D963429A093FE000396DC /* UserData.xcdatamodeld */,
+			);
+			path = "GPT Desktop App";
+			sourceTree = "<group>";
+		};
+		D88BB541299D8F29006B7303 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D88BB542299D8F29006B7303 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D88BB54C299D8F29006B7303 /* GPT Desktop AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D88BB54D299D8F29006B7303 /* GPT_Desktop_AppTests.swift */,
+			);
+			path = "GPT Desktop AppTests";
+			sourceTree = "<group>";
+		};
+		D88BB556299D8F29006B7303 /* GPT Desktop AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D88BB557299D8F2A006B7303 /* GPT_Desktop_AppUITests.swift */,
+				D88BB559299D8F2A006B7303 /* GPT_Desktop_AppUITestsLaunchTests.swift */,
+			);
+			path = "GPT Desktop AppUITests";
+			sourceTree = "<group>";
+		};
+		D88D962A29A03F76000396DC /* ConversationViews */ = {
+			isa = PBXGroup;
+			children = (
+				D88D962B29A03FB2000396DC /* ConversationSelector.swift */,
+				D88D962D29A055E6000396DC /* NewConversation.swift */,
+				D82DD9A429A1689B004F647C /* ConversationView.swift */,
+			);
+			path = ConversationViews;
+			sourceTree = "<group>";
+		};
+		D88D962F29A05C2E000396DC /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				D861C9C5299DBE1D00D6C296 /* PersistenceUserData.swift */,
+				D88D963029A05D46000396DC /* ConversationsManager.swift */,
+				D88D963229A05FC5000396DC /* ManageConversation.swift */,
+			);
+			path = UserData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88BB537299D8F29006B7303 /* GPT Desktop App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88BB55D299D8F2A006B7303 /* Build configuration list for PBXNativeTarget "GPT Desktop App" */;
+			buildPhases = (
+				D88BB534299D8F29006B7303 /* Sources */,
+				D88BB535299D8F29006B7303 /* Frameworks */,
+				D88BB536299D8F29006B7303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPT Desktop App";
+			productName = "GPT Desktop App";
+			productReference = D88BB538299D8F29006B7303 /* GPT Desktop App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D88BB548299D8F29006B7303 /* GPT Desktop AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88BB560299D8F2A006B7303 /* Build configuration list for PBXNativeTarget "GPT Desktop AppTests" */;
+			buildPhases = (
+				D88BB545299D8F29006B7303 /* Sources */,
+				D88BB546299D8F29006B7303 /* Frameworks */,
+				D88BB547299D8F29006B7303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88BB54B299D8F29006B7303 /* PBXTargetDependency */,
+			);
+			name = "GPT Desktop AppTests";
+			productName = "GPT Desktop AppTests";
+			productReference = D88BB549299D8F29006B7303 /* GPT Desktop AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D88BB552299D8F29006B7303 /* GPT Desktop AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88BB563299D8F2A006B7303 /* Build configuration list for PBXNativeTarget "GPT Desktop AppUITests" */;
+			buildPhases = (
+				D88BB54F299D8F29006B7303 /* Sources */,
+				D88BB550299D8F29006B7303 /* Frameworks */,
+				D88BB551299D8F29006B7303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88BB555299D8F29006B7303 /* PBXTargetDependency */,
+			);
+			name = "GPT Desktop AppUITests";
+			productName = "GPT Desktop AppUITests";
+			productReference = D88BB553299D8F29006B7303 /* GPT Desktop AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88BB530299D8F29006B7303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D88BB537299D8F29006B7303 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D88BB548299D8F29006B7303 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D88BB537299D8F29006B7303;
+					};
+					D88BB552299D8F29006B7303 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D88BB537299D8F29006B7303;
+					};
+				};
+			};
+			buildConfigurationList = D88BB533299D8F29006B7303 /* Build configuration list for PBXProject "GPT Desktop App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88BB52F299D8F29006B7303;
+			productRefGroup = D88BB539299D8F29006B7303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88BB537299D8F29006B7303 /* GPT Desktop App */,
+				D88BB548299D8F29006B7303 /* GPT Desktop AppTests */,
+				D88BB552299D8F29006B7303 /* GPT Desktop AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88BB536299D8F29006B7303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88BB543299D8F29006B7303 /* Preview Assets.xcassets in Resources */,
+				D88BB540299D8F29006B7303 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88BB547299D8F29006B7303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88BB551299D8F29006B7303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88BB534299D8F29006B7303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88D963629A093FE000396DC /* UserData.xcdatamodeld in Sources */,
+				D88D962C29A03FB2000396DC /* ConversationSelector.swift in Sources */,
+				D88D963129A05D46000396DC /* ConversationsManager.swift in Sources */,
+				D861C9BF299D900B00D6C296 /* LoginView.swift in Sources */,
+				D88BB53E299D8F29006B7303 /* ContentView.swift in Sources */,
+				D861C9C6299DBE1D00D6C296 /* PersistenceUserData.swift in Sources */,
+				D814182529A23BAB0075C1E6 /* OpenAIResponse.swift in Sources */,
+				D82DD9A529A1689B004F647C /* ConversationView.swift in Sources */,
+				D88D962E29A055E6000396DC /* NewConversation.swift in Sources */,
+				D861C9C8299DC02700D6C296 /* OpenAIRequests.swift in Sources */,
+				D88D963329A05FC5000396DC /* ManageConversation.swift in Sources */,
+				D88BB53C299D8F29006B7303 /* GPT_Desktop_AppApp.swift in Sources */,
+				D861C9C0299D900B00D6C296 /* MainContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88BB545299D8F29006B7303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88BB54E299D8F29006B7303 /* GPT_Desktop_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88BB54F299D8F29006B7303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88BB558299D8F2A006B7303 /* GPT_Desktop_AppUITests.swift in Sources */,
+				D88BB55A299D8F2A006B7303 /* GPT_Desktop_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D88BB54B299D8F29006B7303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88BB537299D8F29006B7303 /* GPT Desktop App */;
+			targetProxy = D88BB54A299D8F29006B7303 /* PBXContainerItemProxy */;
+		};
+		D88BB555299D8F29006B7303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88BB537299D8F29006B7303 /* GPT Desktop App */;
+			targetProxy = D88BB554299D8F29006B7303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D88BB55B299D8F2A006B7303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D88BB55C299D8F2A006B7303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D88BB55E299D8F2A006B7303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GPT Desktop App/GPT_Desktop_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT Desktop App/Preview Content\"";
+				DEVELOPMENT_TEAM = PUM7M63KUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jsaez-personal.GPT-Desktop-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D88BB55F299D8F2A006B7303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GPT Desktop App/GPT_Desktop_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT Desktop App/Preview Content\"";
+				DEVELOPMENT_TEAM = PUM7M63KUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jsaez-personal.GPT-Desktop-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D88BB561299D8F2A006B7303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUM7M63KUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jsaez-personal.GPT-Desktop-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPT Desktop App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPT Desktop App";
+			};
+			name = Debug;
+		};
+		D88BB562299D8F2A006B7303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUM7M63KUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jsaez-personal.GPT-Desktop-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPT Desktop App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPT Desktop App";
+			};
+			name = Release;
+		};
+		D88BB564299D8F2A006B7303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUM7M63KUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jsaez-personal.GPT-Desktop-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GPT Desktop App";
+			};
+			name = Debug;
+		};
+		D88BB565299D8F2A006B7303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUM7M63KUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jsaez-personal.GPT-Desktop-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GPT Desktop App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88BB533299D8F29006B7303 /* Build configuration list for PBXProject "GPT Desktop App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88BB55B299D8F2A006B7303 /* Debug */,
+				D88BB55C299D8F2A006B7303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88BB55D299D8F2A006B7303 /* Build configuration list for PBXNativeTarget "GPT Desktop App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88BB55E299D8F2A006B7303 /* Debug */,
+				D88BB55F299D8F2A006B7303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88BB560299D8F2A006B7303 /* Build configuration list for PBXNativeTarget "GPT Desktop AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88BB561299D8F2A006B7303 /* Debug */,
+				D88BB562299D8F2A006B7303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88BB563299D8F2A006B7303 /* Build configuration list for PBXNativeTarget "GPT Desktop AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88BB564299D8F2A006B7303 /* Debug */,
+				D88BB565299D8F2A006B7303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D88D963429A093FE000396DC /* UserData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D88D963529A093FE000396DC /* UserData.xcdatamodel */,
+			);
+			currentVersion = D88D963529A093FE000396DC /* UserData.xcdatamodel */;
+			path = UserData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D88BB530299D8F29006B7303 /* Project object */;
+}
